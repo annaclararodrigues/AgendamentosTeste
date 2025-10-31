@@ -8,13 +8,9 @@ import java.util.UUID;
 
 public record AgendamentoResponse(
     UUID id,
-    String pacienteCpf,
-    String medicoCrm,
-    String especialidade,
-    LocalDateTime inicio,
-    LocalDateTime fim,
     Agendamento.Status status,
     LocalDateTime dataCriacao,
     List<String> notas
 ) {
 }
+gg
