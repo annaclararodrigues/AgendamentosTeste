@@ -29,11 +29,6 @@ public class AgendamentoMapper {
     public AgendamentoResponse toDto(Agendamento agendamento){
         AgendamentoResponse agendamentoResponse = new AgendamentoResponse(
                 agendamento.getId(),
-                agendamento.getPacienteCpf(),
-                agendamento.getMedicoCrm(),
-                agendamento.getEspecialidade(),
-                agendamento.getInicio(),
-                agendamento.getFim(),
                 agendamento.getStatus(),
                 agendamento.getDataCriacao(),
                 agendamento.getNotas()

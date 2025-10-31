@@ -13,4 +13,3 @@ public record AgendamentoResponse(
     List<String> notas
 ) {
 }
-gg
