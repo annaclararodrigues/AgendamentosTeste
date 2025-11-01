@@ -21,4 +21,7 @@ public class AgendamentoRepository {
         return agendamentos.values().stream().toList();
     }
 
+    public Agendamento findById(UUID id) {
+        return agendamentos.get(id);
+    }
 }
