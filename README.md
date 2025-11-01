@@ -51,6 +51,7 @@ A solução foi construída com Java 17 e Spring Boot 3.3.x, seguindo uma arquit
 ## Endpoints
 
 | Método | Rota | Descrição |
+| :--- | :--- | :--- |
 | `POST` | `/agendamentos` | Cria um novo agendamento. |
 | `GET` | `/agendamentos?status=AGENDADO` | Lista agendamentos filtrando por status. |
 | `PUT` | `/agendamentos/{id}/cancelar` | Cancela um agendamento (requer motivo). |
